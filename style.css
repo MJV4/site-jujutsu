@@ -75,13 +75,15 @@ li > a{
 }
 li:hover > a{
     text-decoration: underline;
-    background-color: rgba(180, 165, 165, 0.726);
+    background-color: rgba(180, 165, 165, 0.24);
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 50px;
 }
 picture > img{
+    background-color: rgb(238, 245, 231);
+    transition: 1s;
     background-image: radial-gradient(circle, black, rgba(128, 0, 128, 0.397), rgba(255, 0, 0, 0.226),rgba(211, 211, 211, 0.349), rgba(235, 235, 235, 0.13));
 }
 .texto_principal{
